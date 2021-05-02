@@ -1,0 +1,57 @@
+.content {
+    background-color: #2a2a2a;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: lightgray
+    
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 16px;
+}
+
+ul {
+    color: gray;
+    list-style: circle;
+    padding: 0 22px;
+    margin-bottom: 10px;
+}
+
+li {
+    font-size: 21px;
+    margin-bottom: 3px;
+    line-height: 27px;
+}
+
+.section {
+    margin-bottom: 48px;
+}
+
+.section h2 {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.flappyBirdImage {
+    background-size: cover;
+    background-image: url('FlappyBird-pic.png');
+    position: absolute;
+    width: 460px;
+    height: 600px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 5px solid black;
+}
+
+.picture-container {
+    width: 460px;
+    height: 600px;
+}
